@@ -28,7 +28,7 @@ This repository contains **two versions** of the game:
 - **↑** – Move up  
 - **↓** – Move down  
 
-*(In AI mode, only Player 1’s controls are used)*
+*(In AI mode, only Player 2’s controls are used)*
 
 ---
 
