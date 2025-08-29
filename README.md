@@ -4,8 +4,8 @@ A modern take on the classic **Pong** arcade game, built with Python.
 Play **1v1 locally** or challenge the built-in **AI opponent**.
 
 This repository contains **two versions** of the game:  
-- `pong-v1` – the first version with basic mechanics  
-- `pong-v2` – an updated version with improvements and tweaks  
+- `pong _game_2_player` – the original version with basic 1v1 mechanics 
+- `pong _game_with_ai` – an updated version with a player VS AI setup
 
 ---
 
