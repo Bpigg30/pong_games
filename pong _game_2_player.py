@@ -55,6 +55,7 @@ white = (255,255,255)
 black = (0,0,0)
 light_grey = ('grey12')
 
+
 ball_speed_x = 7 * random.choice((1,-1))
 ball_speed_y = 7 * random.choice((1,-1))
 player_one_speed = 0
