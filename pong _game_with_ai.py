@@ -41,10 +41,17 @@ def ball_restart():
 pygame.init()
 clock = pygame.time.Clock()
 
-#starting with main window
-screen_width = 1800
-screen_height = 900
-screen = pygame.display.set_mode((screen_width,screen_height))
+# #starting with main window
+# screen_width = 1800
+# screen_height = 900
+# screen = pygame.display.set_mode((screen_width,screen_height))
+#pygame.display.set_caption('Pong')
+
+#attempting to make full screen
+info = pygame.display.Info()
+screen_width = info.current_w
+screen_height = info.current_h
+screen = pygame.display.set_mode((screen_width, screen_height), pygame.FULLSCREEN)
 pygame.display.set_caption('Pong')
 
 #game rectangles
@@ -85,7 +92,7 @@ while True:
     ball_animation()
     player_animation()
     computer_movement()
-    
+
 
 
     
