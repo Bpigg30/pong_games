@@ -7,7 +7,7 @@ This repository contains **two versions** of the game:
 - `pong _game_2_player` – the original version with basic 1v1 mechanics 
 - `pong _game_with_ai` – an updated version with a player VS AI setup
 
----
+-----
 
 ## 🎯 Features
 - Classic Pong gameplay
