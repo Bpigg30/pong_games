@@ -49,9 +49,9 @@ clock = pygame.time.Clock()
 
 #attempting to make full screen
 info = pygame.display.Info()
+screen = pygame.display.set_mode((0,0))
 screen_width = info.current_w
 screen_height = info.current_h
-screen = pygame.display.set_mode((screen_width, screen_height), pygame.FULLSCREEN)
 pygame.display.set_caption('Pong')
 
 #game rectangles
@@ -106,6 +106,7 @@ while True:
     #for line in middle of screen (anti-alias line)
     pygame.draw.aaline(screen, light_grey, (screen_width/2,0), (screen_width/2,screen_height))
     pygame.draw.ellipse(screen, white, ball)
+    pygame.draw.rect(screen, light_grey, (0,0,screen_width,screen_height), 5)
     
     #fills the shapes and controls fps
     pygame.display.flip()
